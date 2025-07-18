@@ -131,7 +131,7 @@ For production or advanced users:
    DB_PORT=5432
    DB_NAME=stock_sentiment_db
    DB_USER=stock_user
-   DB_PASSWORD=StockSentiment2024!
+   DB_PASSWORD=your_secure_password_here
    ```
 
 3. Install PostgreSQL driver:
