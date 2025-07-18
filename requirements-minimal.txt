@@ -1,0 +1,34 @@
+# Minimal requirements for Stock Sentiment Analysis System
+# This setup uses lightweight models (VADER + TextBlob) without heavy ML dependencies
+
+# Data Collection
+feedparser==6.0.10
+requests==2.31.0
+beautifulsoup4==4.12.2
+python-dateutil==2.8.2
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.21.0
+yfinance>=0.2.0
+
+# NLP and Sentiment Analysis (Lightweight)
+nltk>=3.8
+textblob>=0.17.1
+vaderSentiment>=3.3.2
+
+# Visualization and Dashboard
+plotly>=5.0.0
+dash>=2.10.0
+dash-bootstrap-components>=1.4.0
+
+# Database
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0  # For PostgreSQL support
+
+# Utilities
+python-dotenv==1.0.0
+schedule==1.2.0
+
+# Note: This setup excludes PyTorch and Transformers (FinBERT) for faster installation
+# To enable FinBERT model, install: pip install -r requirements.txt
